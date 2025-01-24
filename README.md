@@ -75,6 +75,8 @@ The Model used for this project is available here! [Robotic Arm With 7 Servos by
 
 - **Forward Kinematics Accuracy**: The current forward kinematics implementation has some inaccuracies, since I only wrote it last minute as a proof of concept that we can see the position on the oled.
 
+- **Inverse Kinematics**: Currently, giving negative X and Y values returns incorrect results, do not use them. 
+
 - **Gripper Orientation**: The system is designed to maintain the gripper parallel to the ground during movements. This simplifies certain tasks like inverse kinematics calculation but may limit flexibility for specific operations.
 
 ### Get Started
