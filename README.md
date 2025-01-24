@@ -61,7 +61,15 @@ Here are some examples of the robotic arm in action:
 
 ## ARM MODEL
 
-The Model used for this project is available here! [Robotic Arm With 7 Servos by jjshortcut](https://github.com/Soroushcro/nodemcu-robotic-arm)
+The Model used for this project is available here! [Robotic Arm With 7 Servos by jjshortcut](https://www.thingiverse.com/thing:2433)
+
+## Notes and Recommendations
+
+- **Servo Replacement**: The current setup uses standard MG90S micro servos. For improved performance and accuracy, consider replacing the wrist rotation and gripper servos with MG90S servos that include built-in potentiometers for better control.
+
+- **Forward Kinematics Accuracy**: The current forward kinematics implementation has some inaccuracies, since I only wrote it last minute as a proof of concept that we can see the position on the oled.
+
+- **Gripper Orientation**: The system is designed to maintain the gripper parallel to the ground during movements. This simplifies certain tasks like inverse kinematics calculation but may limit flexibility for specific operations.
 
 ### Get Started
 1. Clone the repository:
@@ -71,3 +79,7 @@ The Model used for this project is available here! [Robotic Arm With 7 Servos by
 2. Follow the documentation to assemble the hardware and configure the web interface.
 
 Feel free to contribute by opening issues or pull requests!
+
+Here’s the additional section to include in the **README.md**:
+
+
