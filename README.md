@@ -55,9 +55,9 @@ The OLED display provides key real-time information:
 
 Here are some examples of the robotic arm in action:
 
-![Example Movement 1](/pictures/arm%20(3).jpg)
-![Example Movement 2](/pictures/arm%20(4).jpg)
-![Example Movement 3](/pictures/arm%20(5).jpg)
+![Example Movement 1](/images/arm%20(1).jpg)
+![Example Movement 2](/images/arm%20(2).jpg)
+![Example Movement 3](/images/arm%20(3).jpg)
 
 ## ARM MODEL
 
