@@ -36,20 +36,26 @@ The OLED display provides key real-time information:
 - WiFi Access Point IP address
 - System status messages
 
-## Control Interface
+## Control Interface Panels
 
 ### Sliders Tab
-- Individual servo controls:
-  - **Base Rotation**: 0°–180°
-  - **Shoulder**: 0°–180°
-  - **Elbow**: 30°–180°
-  - **Wrist**: 0°–180°
-  - **Wrist Rotation**: Left/Right buttons
-  - **Gripper**: Open/Close/Grip buttons
+The **Sliders Tab** provides direct control over individual servos. Adjust the position of each servo using sliders or buttons:
+- **Base Rotation**: 0°–180°
+- **Shoulder**: 0°–180°
+- **Elbow**: 30°–180°
+- **Wrist**: 0°–180°
+- **Wrist Rotation**: Left/Right buttons
+- **Gripper**: Open/Close/Grip buttons
+
+![Sliders Panel](/images/sliders.png)
+
+---
 
 ### XYZ Position Tab
-- Input desired X, Y, Z coordinates (in mm) for the robotic arm.
-- The system calculates and executes the necessary joint movements.
+The **XYZ Position Tab** allows control through forward kinematics. Input desired **X, Y, Z coordinates** in millimeters to calculate the joint angles automatically. Confirm to execute the movement.
+
+![XYZ Position Panel](/images/xyzposition.png)
+
 
 ## Example Movements
 
